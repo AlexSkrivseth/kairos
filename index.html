@@ -17,9 +17,27 @@
             font-size: 24px;
         }
         
-        .main-text {
-            font-size: 36px;
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             margin-top: 100px;
+        }
+
+        .button {
+            font-size: 20px;
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #FBB51A;
+            color: black;
+            border: none;
+            cursor: pointer;
+            text-decoration: none; /* To make it look like a button */
+            display: inline-block;
+        }
+
+        .button:hover {
+            background-color: whitesmoke;
         }
     </style>
 </head>
@@ -27,8 +45,10 @@
     <header>
         Kairos Anabaptist Bible Camp
     </header>
-    <div class="main-text">
-        Applications Coming Soon . . .
+    <div class="button-container">
+        <a href="https://drive.google.com/file/d/1f-aPvOMTv6Lcwk4kdmWOW-SkuHZ-UAwT/view?usp=drive_link" class="button">Ministerial Reference Form</a>
+        <a href="https://drive.google.com/file/d/1Ak_okTApME0vTq5QfmIA20atU0hzMuOx/view?usp=drive_link" class="button">Kairos Application Form</a>
+        <a href="https://drive.google.com/file/d/1-jTpA6_AEXF0oIG4R04HmVRrO8IpASeJ/view?usp=drive_link" class="button">Kairos Student Handbook</a>
     </div>
 </body>
 </html>
