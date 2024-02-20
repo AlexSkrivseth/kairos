@@ -43,7 +43,7 @@ header {
 }
 
 .content, .button-container {
-    margin-top: 150px; /* Adjust based on header size to avoid overlap */
+    margin-top: 220px; /* Adjust based on header size to avoid overlap */
     display: flex;
     justify-content: center;
     flex-direction: column;
